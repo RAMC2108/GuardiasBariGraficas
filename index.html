@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="bariStyle.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <!--Content before waves-->
+        <div class="inner-header flex">
+        <img class="logo" src="logo-512px.png"
+          <h1>Guardias Bari</h1>
+        </div>
+      
+        <!--Waves Container-->
+        
+        <!--Waves end-->
+      
+      </div>
+      <!--Header ends-->
+      
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <label>RECLUTAMIENTO VS METAS</label>
+                <iframe title="REPORTE-RH-DIDIER - copia - RECLUTAMIENTO VS METAS" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMzExNjc2NDItNWMxNC00NjY0LTg0NTYtYTRmNjQ0ODc2N2MxIiwidCI6ImNhZDUyYjgxLTRkNDEtNGMwOS05YTBmLTZhYjc5ZjM2YTgyMyJ9" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div class="swiper-slide">
+                <label>RECORRIDOS</label>
+                <iframe title="RECORRIDOS - Página 1" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYjNmNjkwZDEtY2JkMi00ZjhiLTlhZTQtNTU1OWU3MDI1YTdmIiwidCI6ImNhZDUyYjgxLTRkNDEtNGMwOS05YTBmLTZhYjc5ZjM2YTgyMyJ9" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+              delay: 20500,
+              disableOnInteraction: false,
+            },
+            keyboard: {
+                enabled: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>
