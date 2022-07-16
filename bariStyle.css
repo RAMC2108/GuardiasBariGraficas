@@ -50,8 +50,8 @@ body {
         object-fit: cover;
     }
     iframe{
-        min-width: 1000px;
-        min-height: 550px;
+        min-width: 100%;
+        min-height: 600px;
     }
     .header {
         position: relative;
