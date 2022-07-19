@@ -50,7 +50,7 @@ body {
         object-fit: cover;
     }
     iframe{
-        min-width: 100%;
+        min-width: 95%;
         min-height: 600px;
     }
     .header {
