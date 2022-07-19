@@ -52,6 +52,7 @@ body {
     iframe{
         min-width: 95%;
         min-height: 600px;
+        height: 95%;
     }
     .header {
         position: relative;
